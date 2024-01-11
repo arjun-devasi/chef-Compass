@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chef's Compass</title>
+    <link rel="shortcut icon" href="image/cooking.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div>
+          <img class="nav-logo" src="./image/cooking.png" />
+          <h1>
+            Chef's
+            <span style="color: rgb(247, 247, 5); font-size: 2.5rem"
+              >Compass</span
+            >
+          </h1>
+        </div>
+
+        <form>
+          <input
+            class="input-text"
+            id="recipeInput"
+            type="text"
+            placeholder="search your recipe.."
+          />
+          <button type="submit" id="recipeBtn">search</button>
+        </form>
+      </nav>
+    </header>
+    <main>
+      <div class="main-text">
+        <h1>Learn cooking in a</h1>
+        <h1>simple way...</h1>
+      </div>
+      <h1 class="text-on-container" style="text-align: center">Searching...</h1>
+      <div class="recipe-container"></div>
+      <div class="recipe-detail">
+        <button class="recipe-close-btn">❌</button>
+        <div class="recipe-detail-content"></div>
+      </div>
+    </main>
+    <footer>
+      <div class="footer-content">
+        <p>&copy; 2024 Chef's Compass. All rights reserved.</p>
+        <p>Contact: chef@compass.com</p>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
